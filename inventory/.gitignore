@@ -21,3 +21,30 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.vscode/
+.idea/
+.DS_Store
+node_modules/
+__pycache__/
+AppData/
+Documents/
+Downloads/
+OneDrive/
+Saved Games/
+Videos/
+Music/
+
+# Ignore Windows system files
+NTUSER.*
+desktop.ini
+Thumbs.db
+
+# Ignore executable & installer files
+*.exe
+*.msi
+*.lnk
+*.zip
+
+# Ignore logs and cache
+*.log
