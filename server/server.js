@@ -33,3 +33,26 @@ app.post("/addprod", (req, res) => {
     console.log(req.body);
     res.send("Response Received" + req.body);
 });
+//get all prod details
+
+app.get("/addprod", async(req,res) => {
+    try{
+        const allprod = await pool.query("SELECT * from proddeets");
+        res.json(allprod.rows);
+    } catch(err){
+        console.log(err);
+    }
+});
+
+//get one prod
+
+app.get("/addprod/:prodid" , async(req,res) => {
+    try{
+        const {prodid} = req.params;
+        const prod = await pool.query(`SELECT * from proddeets WHERE prodid = ${prodid}`);
+        res.json(prod.rows[0]);
+        console.log(req.params);
+    } catch(err){
+        console.log(err);
+    }
+});
