@@ -33,6 +33,8 @@ app.post("/addprod", (req, res) => {
     console.log(req.body);
     res.send("Response Received" + req.body);
 });
+
+
 //get all prod details
 
 app.get("/addprod", async(req,res) => {
@@ -56,6 +58,8 @@ app.get("/addprod/:prodid" , async(req,res) => {
         console.log(err);
     }
 });
+
+
 
 //delete a prod
 
