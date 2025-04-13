@@ -19,7 +19,7 @@ const AboutUs = () => {
               <p>
                 <img src={mailLogo} alt="Mail Logo" className="mail-logo" />
                 <a href="mailto:amar.maddy.kk@gmail.com">
-                  amar.maddy.kk@gmail.com@gmail.com
+                  amar.maddy.kk@gmail.com
                 </a>
               </p>
             </div>
