@@ -14,37 +14,20 @@ const AboutUs = () => {
           <h2>Contact Us</h2>
           <div className="contact-card">
             <div className="contact-item">
-              <h3>Krish Verma</h3>
-              <p>22BCE2382</p>
+              <h3>Amar Madrewar</h3>
+              <p>22BCE0827</p>
               <p>
                 <img src={mailLogo} alt="Mail Logo" className="mail-logo" />
-                <a href="mailto:krishverma2004@gmail.com">
-                  krishverma2004@gmail.com
+                <a href="mailto:amar.maddy.kk@gmail.com">
+                  amar.maddy.kk@gmail.com
                 </a>
               </p>
             </div>
-            <div className="contact-item">
-              <h3>V Hemal Sri</h3>
-              <p>22BDS0432</p>
-              <p>
-                <img src={mailLogo} alt="Mail Logo" className="mail-logo" />
-                <a href="mailto:hemal4sri@gmail.com">hemal4sri@gmail.com</a>
-              </p>
-            </div>
-            <div className="contact-item">
-              <h3>Muhammed Sirfan</h3>
-              <p>22BKT0147</p>
-              <p>
-                <img src={mailLogo} alt="Mail Logo" className="mail-logo" />
-                <a href="mailto:sirfan.salam@gmail.com">
-                  sirfan.salam@gmail.com
-                </a>
-              </p>
-            </div>
+           
           </div>
           <div className="links-container">
             <a
-              href="https://github.com/nervewastaken/Inventory-Management"
+              href="https://github.com/Maddy1304/Software_project"
               target="_blank"
               rel="noopener noreferrer"
               className="link-button"
@@ -53,13 +36,13 @@ const AboutUs = () => {
               GitHub Link
             </a>
             <a
-              href="https://github.com/nervewastaken/"
+              href="https://github.com/maddy1304/"
               target="_blank"
               rel="noopener noreferrer"
               className="link-button"
             >
               <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
-              Krish's GitHub
+              Amar's GitHub
             </a>
           </div>
         </div>
