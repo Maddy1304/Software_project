@@ -27,7 +27,7 @@ const AboutUs = () => {
           </div>
           <div className="links-container">
             <a
-              href="https://github.com/nervewastaken/Inventory-Management"
+              href="https://github.com/Maddy1304/Software_project"
               target="_blank"
               rel="noopener noreferrer"
               className="link-button"
@@ -36,13 +36,13 @@ const AboutUs = () => {
               GitHub Link
             </a>
             <a
-              href="https://github.com/nervewastaken/"
+              href="https://github.com/maddy1304/"
               target="_blank"
               rel="noopener noreferrer"
               className="link-button"
             >
               <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
-              Krish's GitHub
+              Amar's GitHub
             </a>
           </div>
         </div>
